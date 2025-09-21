@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container mx-auto p-5 bg-blue-100">
+      <nav class="flex justify-between items-center">
+        <div>
+          <img
+            class="rounded-full h-20 w-20"
+            src="https://lipsum.app/random/1600x900"
+            alt=""
+          />
+        </div>
+        <ul class="flex space-x-8">
+          <!-- the justify between was not working because the ul takes only the required space of the content -->
+          <li class="menu-clk">About</li>
+          <li class="menu-clk">Source</li>
+          <li class="menu-clk">Carrier</li>
+          <li class="menu-clk">Contact</li>
+        </ul>
+        <button
+          class="bg-blue-950 text-white rounded-2xl shadow-2xl border-black px-5 py-2 hover:bg-blue-900"
+        >
+          Login
+        </button>
+      </nav>
+    </div>
+  </body>
+</html>

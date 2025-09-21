@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme {
+  --color-purple: #40e0d0;
+}
+@layer components {
+  .menu-clk {
+    @apply text-blue-950 font-extrabold hover:text-blue-800;
+  }
+}
